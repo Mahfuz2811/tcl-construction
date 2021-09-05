@@ -691,6 +691,13 @@ a, .btn, img {
 	display: block;
 	margin: 0 auto;
 }
+.h-line{
+	position: relative;
+	width: 60px;
+	height: 3px;
+	background: #ffa500;
+	display: block;
+}
 .l-left {
 	margin: 0;
 }
@@ -5632,6 +5639,35 @@ transform: scale(1);
 .m-b-5 {
 	margin-bottom: 5px;
 }
+.m-b-20{
+	margin-bottom: 20px;
+}
+
+/*for team section*/
+.border-5, .border-w-5 {
+	border-width: 5px !important;
+}
+hr.hr-primary {
+	border-top-color: #CC164D!important;
+}
+em {
+	font-style: italic;
+}
+.font-weight-normal {
+	font-weight: 400 !important;
+}
+
+@media (max-width: 767px) {
+	.res-w-50 {
+		width: 50% !important;
+	}
+}
+@media (max-width: 480px) {
+	.res-w-50 {
+		width: 50% !important;
+	}
+}
+
 /* #Accordion-box
  ================================================== */
 .accordion-box-1 .accordion {
